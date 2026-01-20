@@ -12,4 +12,3 @@ PostgreSQL
 ## Артефакты
 - Schema: schema.md
 - Queries: queries.sql
-- Notes: answers.md
