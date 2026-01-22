@@ -1,0 +1,34 @@
+{
+	"id": "037f2397-5f87-41fa-bb73-f559c4b25243",
+	"name": "reqres",
+	"values": [
+		{
+			"key": "base_URL",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "apiKey",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "userID",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "userId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2026-01-22T13:00:35.831Z",
+	"_postman_exported_using": "Postman/11.81.2"
+}
