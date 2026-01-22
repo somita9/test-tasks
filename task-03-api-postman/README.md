@@ -16,8 +16,6 @@
 - **CRUD**: создание, обновление, удаление  
 - **Auth**: login/register в текущей версии API с `x-api-key`
 
-> Примечание: в текущем стенде ReqRes с `x-api-key` ответы `/login` и `/register` могут отличаться от классических примеров (например, возвращать `201 Created`). Ожидаемые статусы зафиксированы в `test-cases.md` и соответствуют фактическому поведению.
-
 ## Артефакты
 - Test cases: [`test-cases.md`](https://github.com/somita9/test-tasks/blob/main/task-03-api-postman/test-cases.md)
 - Postman collection: [`collection.json`](https://github.com/somita9/test-tasks/blob/main/task-03-api-postman/collection.json)
