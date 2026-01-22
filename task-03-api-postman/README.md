@@ -1,4 +1,4 @@
-# Task 03 — API testing (Postman) — ReqRes
+# Task 03 - API testing (Postman) - ReqRes
 
 ## Цель
 Протестировать REST API в Postman: позитивные и негативные сценарии, проверки HTTP-статусов, базовые проверки структуры ответа и простые автотесты.
