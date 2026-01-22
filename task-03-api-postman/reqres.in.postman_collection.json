@@ -1,0 +1,353 @@
+{
+  "info": {
+    "_postman_id": "acf978f0-b0a1-4922-bedf-b447a1e5effd",
+    "name": "reqres.in",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50139232",
+    "_collection_link": "https://go.postman.co/collection/50139232-acf978f0-b0a1-4922-bedf-b447a1e5effd?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "1",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{apiKey}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_URL}}/users?page=2",
+          "host": [
+            "{{base_URL}}"
+          ],
+          "path": [
+            "users"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "2"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "2",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{apiKey}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_URL}}/users/2",
+          "host": [
+            "{{base_URL}}"
+          ],
+          "path": [
+            "users",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "3",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{apiKey}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_URL}}/users/999",
+          "host": [
+            "{{base_URL}}"
+          ],
+          "path": [
+            "users",
+            "999"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "4",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{apiKey}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\": \"Somita\", \"job\": \"QA\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_URL}}/users",
+          "host": [
+            "{{base_URL}}"
+          ],
+          "path": [
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "5",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{apiKey}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\": \"Somita\", \"job\": \"QA updated\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_URL}}/users/2",
+          "host": [
+            "{{base_URL}}"
+          ],
+          "path": [
+            "users",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "6",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{apiKey}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"job\": \"QA updated\" }"
+        },
+        "url": {
+          "raw": "{{base_URL}}/users/2",
+          "host": [
+            "{{base_URL}}"
+          ],
+          "path": [
+            "users",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "7",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{apiKey}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "{{base_URL}}/users/2",
+          "host": [
+            "{{base_URL}}"
+          ],
+          "path": [
+            "users",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "8",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{apiKey}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_URL}}/register",
+          "host": [
+            "{{base_URL}}"
+          ],
+          "path": [
+            "register"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "9",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{apiKey}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"cityslicka\"\r\n}"
+        },
+        "url": {
+          "raw": "{{base_URL}}/login",
+          "host": [
+            "{{base_URL}}"
+          ],
+          "path": [
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "10",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{apiKey}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"email\": \"eve.holt@reqres.in\"\r\n}"
+        },
+        "url": {
+          "raw": "{{base_URL}}/register",
+          "host": [
+            "{{base_URL}}"
+          ],
+          "path": [
+            "register"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "11",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{apiKey}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"email\": \"eve.holt@reqres.in\", \"password\": \"pistol\" }"
+        },
+        "url": {
+          "raw": "{{base_URL}}/register",
+          "host": [
+            "{{base_URL}}"
+          ],
+          "path": [
+            "register"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "12",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{apiKey}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "{{base_URL}}/user/2",
+          "host": [
+            "{{base_URL}}"
+          ],
+          "path": [
+            "user",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
